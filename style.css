@@ -12,15 +12,6 @@ html, body{
     object-fit: cover;
 }
 
-#archive {
-	height: 50px;
-	position: fixed;
-	padding: 5px 20px;
-	/* border: solid 3px white; */
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-}
 
 #camera--trigger{
     width: 200px;
@@ -46,4 +37,11 @@ html, body{
     top: 20px;
     right: 20px;
     z-index: 2;
+}
+
+.archive-icon {
+	height: 50px;
+	position: fixed;   
+	top: 20px;
+	left: 20px;
 }

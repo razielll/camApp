@@ -1,0 +1,27 @@
+{
+	"name": "cameraapp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/razielll/camApp.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/razielll/camApp/issues"
+	},
+	"homepage": "https://github.com/razielll/camApp#readme",
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"permissions": {
+		"video-capture": {
+			"description": "Required to capture video using getUserMedia()"
+		}
+	}
+}
