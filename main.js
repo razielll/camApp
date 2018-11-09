@@ -51,6 +51,10 @@ cameraTrigger.onclick = () => {
 	cameraSensor.getContext('2d').drawImage(cameraView, 0, 0);
 	cameraOutput.src = cameraSensor.toDataURL('image/webp');
 	cameraOutput.classList.add('taken');
+	setTimeout(() => {
+		cameraOutput.classList.remove('taken');
+	}, 1000);
+
 	// cameraView.srcObject.getVideoTracks().forEach(track => track.stop());
 };
 
